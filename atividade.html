@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", user-scalable="yes">
+        <title>Atividade</title>
+    </head>
+    <body>
+        <h1>Exercício 1.</h1>
+        <p>Aperte o botão abaixo para iniciar o jogo de adivinhação.</p>
+        <button onclick="gerar()">Iniciar</button>
+        <p id="gerando"></p>
+        <p>Digite sua tentativa.</p>
+        <input type="number" id="num1">
+        <button onclick="enviar()">Enviar</button>
+
+        <hr>
+
+        <h1>Exercício 2.</h1>
+        <p>Aperte o botão abaixo para inciar o jogo de pedra, papel e tesoura.</p>
+        <button onclick="iniciar()">Iniciar</button>
+
+        <hr>
+
+        <h1>Exercício 3.</h1>
+        <p>Digite um número abaixo para receber sua tabuada até o 10.</p>
+        <input type="number" id="num2">
+        <button onclick="tabuada()">Enviar</button>
+        <table id="tabela" style="border: 1px solid;"></table>
+
+        <hr>
+
+        <h1>Exercício 4.</h1>
+        <p>Digite um número de linhas abaixo para formar um triângulo.</p>
+        <input type="number" id="num3">
+        <button onclick="triangulo()">Enviar</button>
+        <p id="triangulo"></p>
+        
+        <hr>
+
+        <h1>Exercício 5.</h1>
+        <p>Digite a quantidade de vezes que deseja somar a série 1 + 11 + ...</p>
+        <input type="number" id="num4">
+        <button onclick="soma()">Enviar</button>
+        <p id="soma"></p>
+    
+        <script src="atividade.js"></script>
+    </body>
+</html>
