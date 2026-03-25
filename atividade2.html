@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <title>Atividade 2 - DOM</title>
+</head>
+<body>
+    <h1>DOM: Página Interativa com JavaScript</h1>
+    <div>
+        <button onclick="incrementar()">Incrementar</button>
+        <button onclick="decrementar()">Decrementar</button>
+        <span id="contador">0</span>
+    </div>
+
+
+    <div>
+        <input type="text" id="campoTexto" placeholder="Digite algo..." oninput="atualizarCaracteres()">
+        <p><span id="contadorCaracteres">0</span> caracteres (sem espaços)</p>
+        <div id="containerParagrafos"></div>
+    </div>
+
+
+    <div>
+        <ul>
+            <li>Ranyelson</li>
+            <li>Miriam</li>
+            <li>Emanuelle</li>
+            <li>Casa</li>
+        </ul>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </div>
+
+
+    <div>
+        <select id="tipoLista">
+            <option value="ul">Lista Não Ordenada</option>
+            <option value="ol">Lista Ordenada</option>
+        </select>
+        <button onclick="adicionarLista()">Adicionar Lista</button>
+        <div id="containerListas"></div>
+    </div>
+
+    
+    <div>
+        <button onclick="resetarTudo()">Resetar Tudo</button>
+    </div>
+
+    <script src="atividade2.js"></script>
+</body>
+</html>
